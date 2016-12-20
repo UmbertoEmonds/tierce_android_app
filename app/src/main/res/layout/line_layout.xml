@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:text="5"
+                android:layout_height="match_parent"
+                android:id="@+id/idCheval"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="?attr/actionMenuTextColor"
+                android:textSize="25sp"
+                android:background="#c2ff6666"
+                android:layout_width="60dp" />
+
+            <TextView
+                android:text="Calypso"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/nomCheval"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:textSize="20sp"
+                android:textColor="@android:color/background_dark" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@android:drawable/btn_star_big_on"
+                android:id="@+id/etoile" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@android:color/darker_gray"
+        android:layout_height="1dp"></LinearLayout>
+
+</LinearLayout>
